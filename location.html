@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html>
+	<head>
+	<link rel="icon" HREF="./favicon.ico" TYPE="image/ico">
+		<title>ロッヂ大野への行き方</title>
+		
+			<link href="./css/style_j.css" rel="stylesheet" type="text/css">
+		
+	</head>
+	<body>
+	
+	<div class="top"></div>
+	<div class="logo">
+	<div class="lang_btn_e"><a href="http://www.lodgeohno.com/english/location.html"><img src="./img/e_flag.gif" border="0">English</a></div>
+
+<div class="catch">
+	妙高の快適な家庭的お宿　ロッヂ大野</div>
+
+
+<div class="container">
+
+<div class="content_left">
+
+<!-- Links block start -->
+<div class="links">	
+<a href="rooms.html">お部屋・料金・館内施設</a><p></p>
+<a href="reservations.html">予約</a><p></p>
+<a href="location.html#nogo" class="on">アクセス</a><p></p>
+<a href="about.html">ロッヂ大野について</a><p></p>
+<a href="links.html">リンク</a><p></p>
+<a href="apres.html">アプレスキー</a><p></p>
+<a href="index.html">ホーム</a></div>
+<!-- Links block end -->
+
+
+
+
+<div class="side_photo" style="margin: 220px 0px 0px 0px"><img src="./img/lodge_ext_small.jpg">
+</div>
+
+
+
+<!--content_left-->
+<div>
+<div class="flakes" style="margin: 560px 0px 0px 0px"></div>
+	
+	
+		
+		<!--end side photo-->
+
+	
+</div>
+</div>
+<div class="content_wide">
+
+<div class="head">
+ロッヂ大野への行き方
+</div>
+<div class="text11">
+ロッジ大野は、赤倉観光スキー場へお越しの際には、非常に見つけやすい場所にあります。赤倉観光スキー場南側に位置し、県道39号線沿道です。白妙橋を渡り、スキー場まで徒歩2分。
+<p></p>
+ 
+
+<strong>電車でお越しの場合</strong><br>
+
+JR東日本　信越本線　妙高高原駅　下車<br>
+
+駅よりタクシーで10分。または路線バス「赤倉温泉行き」三叉路下車徒歩2分。
+赤倉温泉、赤倉観光スキー場、池ノ平スキー場､杉の原スキー場を結ぶ無料シャトルバス停車場まで徒歩1分。
+<p></p>
+ 
+<strong>車でお越しの場合</strong><br>
+
+上信越高速道路妙高高原ICを降りて、国道18号線豊橋交差点を左折して5分。
+
+
+</div>
+
+<div class="map">
+
+ <body onload="initialize()" onunload="GUnload()">
+      <div id="map_canvas" style="width: 540px; height: 800px" align="right"></div>
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAQyjNCYdoRXk5eWJOESKSXRSyX8cuOMjd4bJuC1Qdh1vQKiLyhxRzyIFSHxpNxM2iD1PHlK6DPMpZeQ" type="text/javascript"></script>
+
+      
+	  <script type="text/javascript">
+	  //<![CDATA[
+
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+      
+        var map = new GMap2(document.getElementById("map_canvas"));
+		map.addControl(new GSmallMapControl());
+		map.addControl(new GMapTypeControl());
+		//<! open this up again if you need to get a display of map coordinates>
+		//GEvent.addListener(map, "moveend", function() {
+  //var center = map.getCenter();
+ // document.getElementById("message").innerHTML = center.toString();
+//});
+
+		map.setCenter(new GLatLng(36.883550, 138.179700), 18);
+		
+// Create MBSS icon; actual size is 206,90
+var icon = new GIcon();
+icon.image = "./img/sign.png";
+// Restore if needed: icon.shadow = "img/logo_200_shad.png"; //
+icon.iconSize = new GSize(103, 75);
+// Restore if needed:icon.shadowSize = new GSize(103, 75); //
+icon.iconAnchor = new GPoint(30, 50);
+icon.infoWindowAnchor = new GPoint(30, 50);
+
+
+// Put icon in right place
+var bounds = map.getBounds();
+var southWest = bounds.getSouthWest();
+var northEast = bounds.getNorthEast();
+var lngSpan = northEast.lng() - southWest.lng();
+var latSpan = northEast.lat() - southWest.lat();
+for (var i = 0; i < 1; i++) {
+  var point = new GLatLng(36.884800, 138.179600);
+  map.addOverlay(new GMarker(point, icon));
+  
+
+  }
+
+  }
+    }
+
+    //]]>
+    </script>
+        </head>
+
+</div>
+</div>
+
+<div class="clr"></div>
+
+
+<div class="footer" style="margin: 240px 0px 200px 260px">
+		
+	<strong>ロッヂ大野</strong>&nbsp;&nbsp;&nbsp;〒949-2106 新潟県妙高市新赤倉1410&nbsp;&nbsp;&nbsp;メール: <a href="mailto:info@lodgeohno.com">info@lodgeohno.com</a>&nbsp;&nbsp;&nbsp;Tel: 0255-87-2037
+	</div>
+	</div>
+	<!-- end of footer -->	
+
+</body>
+</html>

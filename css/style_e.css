@@ -1,0 +1,433 @@
+html {
+overflow: scroll;
+}
+
+body {
+ 
+	/*background-image: url(../img/back_spring.gif);*/
+	background-image: url(../img/back_winter.gif);
+	background-repeat: repeat-x;
+}
+
+.top {
+background-image: url(../img/wood.jpg);
+background-repeat: repeat-x;
+height: 174px;
+width: 1500px;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+.logo {
+background-image: url(../img/logo.gif);
+position: absolute;
+background-repeat: no-repeat;
+height: 148px;
+width: 173px;
+top: 20px;
+left:60px;
+}
+
+
+.container {
+width: 816px;
+position: absolute;
+left: 0px;
+top: 0px;
+}
+
+.catch {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: normal;
+font-stretch: expanded;
+color: white;
+position: absolute;
+left: 260px;
+top: 130px;
+width: 800px;
+text-align: left
+}
+
+
+/* language button */
+
+.lang_btn_j {
+z-index: 2;
+position: absolute; 
+left: 810px; 
+top: 114px; 
+width: 50px;
+font-family:  Arial, Helvetica, sans-serif;
+color: black;
+font-size: 11px;
+text-indent: 2px;
+ }
+
+.lang_btn_j a {
+text-decoration: none;
+color: black;
+}
+
+.lang_btn_j a:hover  {
+ text-decoration: underline;
+}
+
+.photo_cap {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 9px;
+font-weight: bold;
+font-stretch:expanded;
+color: black;
+position: absolute;
+text-align: left;
+padding-top: 3px;
+}
+
+/*USE FOR WINTER*/
+.flakes {
+background-image: url(../img/flakes.png);
+background-repeat: no-repeat;
+height: 264px;
+width: 204px;
+z-index: 2;
+/*position: absolute;
+top: 480px;
+left: 80px;*/
+}
+
+
+/*.flakes {
+background-image: url(../img/leaf.png);
+background-repeat: no-repeat;
+height: 252px;
+width: 219px;
+z-index: 2;
+/*position: absolute;
+top: 600px;
+left: 80px;*/
+
+}*/
+
+
+.clr {
+clear:both;
+} 
+
+
+.links {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+line-height: 12px;
+font-weight: normal;
+color: white;
+position: absolute;
+left: 10px;
+top: 40px;
+text-align: right;
+}
+
+.links a:link {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: normal;
+color: white;
+text-decoration: none;
+}
+
+.links a:hover{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: normal;
+color: #563a1f;
+text-decoration:none;
+}
+
+.links a.on{
+color: #563a1f;
+text-decoration: none;
+}
+
+.links a:active {
+color: #a77243;
+text-decoration: none;
+}
+
+.links a:visited {
+color: white;
+text-decoration: none;
+}
+
+.side_photo {
+position: absolute;
+left: 10px;
+width: 200px;
+z-index: -2;
+}
+
+.lodge_small {
+float: left; 
+width: 200px;
+background-image: url(../img/lodge_ext_small.jpg);
+}
+
+.content_left {
+width: 200px;
+position: absolute;
+top: 154px;
+left: 25px;
+}
+
+.content_middle {
+width: 300px;
+position: relative;
+top: 180px;
+left: 240px;
+border-left: dotted;
+border-left-color: gray;
+border-left-width: thin;
+}
+
+.content_wide {
+width: 500px;
+position: relative;
+top: 180px;
+left: 240px;
+/*border-left: dotted;
+border-left-color: gray;
+border-left-width: thin;*/
+}
+
+.content_right {
+width: 400px;
+position: absolute;
+top: 180px;
+left: 500px;
+margin-left: 20px;
+}
+
+.content_full {
+width: 816px;
+float: left;
+}
+
+
+.ext_photo {
+width: 400px;
+position: absolute;
+top: 180px;
+left: 540px;
+margin-left: 20px;
+}
+
+.cal {
+margin-left: 15px;
+margin-top: 10px;
+}
+.map {
+margin-left: 20px;
+margin-top: 20px;
+}
+.head {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+color: #563a1f;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 5px;
+margin-top: 10px;
+}
+
+
+.subhead {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+margin-left: 0px;
+margin-right: 20px;
+border-bottom: dotted;
+border-bottom-color: gray;
+border-bottom-width: 1px;
+border-top-width: 5px;
+}
+
+.text10 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+line-height: 12px;
+margin-left: 0px;
+margin-right: 0px;
+color: black;
+}
+
+.text11 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.text12B {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+
+.text11 a:link {
+font-family: Arial, Helvetica, sans-serif;
+color: #563a1f;
+font-size: 11px;
+}
+
+.text11 a:hover {
+font-family: Arial, Helvetica, sans-serif;
+color: #563a1f;
+font-size: 11px;
+}
+
+.text11 a:active {
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 11px;
+}
+
+.text11B {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.text11Plain {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: black;
+text-align: center;
+margin-top: 3px;
+}
+
+.text11Plain a:link {
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 11px;
+text-decoration: none;
+margin-top: 3px;
+}
+
+.text11Plain a:hover {
+font-family: Arial, Helvetica, sans-serif;
+color: #563a1f;
+font-size: 11px;
+margin-top: 3px;
+}
+
+.text11Plain a:active {
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 11px;
+margin-top: 3px;
+}
+
+
+.lang_flag {
+position: absolute;
+top: 100px;
+left: 820px;
+float: left;
+}
+
+
+.intro_text {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 14px;
+margin-left: 20px;
+margin-right: 20px;
+color: black;
+}
+
+.intro_text a:link {
+text-decoration: underline;
+color: black;
+}
+.intro_text a:hover {
+text-decoration: underline;
+color: #563a1f;
+}
+
+.intro_text a:visited {
+font-family: Arial, Helvetica, sans-serif;
+color: #563a1f;
+}
+
+.intro_text ul {
+list-style: circle;
+text-indent: 5px;
+}
+
+.intro_text ul a:link {
+font-family: Arial, Helvetica, sans-serif;
+color: #563a1f;
+}
+
+.intro_text ul a:active {
+font-family: Arial, Helvetica, sans-serif;
+color: #563a1f;
+}
+
+.intro_text ul a:visited {
+font-family: Arial, Helvetica, sans-serif;
+color: #563a1f;
+}
+
+.photos {
+float: left;
+margin-top: 10px;
+margin-bottom: 5px;
+margin-right: 10px;
+}
+
+.footer {
+width: 620px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+line-height: 20px;
+color: #563a1f;
+text-align: right;
+float: left;
+border-top: dotted;
+border-width: thin;
+/*margin-top: 240px;
+margin-left: 30px;*/
+border-top-color: #563a1f;
+}
+
+.footer a:link {
+color: #563a1f;
+text-decoration: underline;
+}
+
+
+.close {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 14px;
+margin-left: 20px;
+margin-right: 20px;
+color: black;
+}
+
+.close a:link {
+text-decoration: none;
+color: black;
+}
+.close a:hover {
+text-decoration: underline;
+color: #563a1f;
+}
+
+
+ 

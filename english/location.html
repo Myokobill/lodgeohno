@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html>
+	<head>
+	<link rel="icon" HREF="./favicon.ico" TYPE="image/ico">
+		<title>Lodge Ohno</title>
+		
+			<link href="../css/style_e.css" rel="stylesheet" type="text/css">
+		
+	</head>
+		<body>
+	
+	<div class="top"></div>
+	<div class="logo"></div>
+	<div class="lang_btn_j"><a href="http://www.lodgeohno.com/location.html"><img src="../img/j_flag.gif" border="0"><br>日本語</a></div>
+
+	<div class="catch">
+	The convenient, home-style place to stay in Myoko</div>
+	
+	<div class="container">
+<div class="content_left">
+
+<!-- Links block start -->
+<div class="links">	
+
+<a href="rooms.html">Rooms, Rates and Availability</a><p></p>
+<a href="reservations.html">Reservations</a><p></p>
+<a href="location.html #nogo" class="on">Location</a><p></p>
+<a href="about.html">About Us</a><p></p>
+<a href="apres.html">Apr&eacute;s Ski</a><p></p>
+<a href="links.html">Links</a><p></p>
+<a href="index.html">Home</a></div>
+<!-- Links block end --></div>
+
+<div class="flakes" style="margin: 400px 0px 0px 20px"></div>
+	
+		
+		<!--end side photo-->
+
+</div>
+</div>
+	
+
+<div class="content_wide">
+
+<div class="head">
+Getting to Lodge Ohno
+</div>
+<div class="text11">
+Lodge Ohno is very easy to find, if you get to the Akakura Kanko Ski Area. The hotel is just below and to the south of the ski area (across the green bridge, and only about one minutes' walk from the slopes) and is right on Prefectural Road 39.<p></p>
+<strong>Coming by train:</strong> Exit at Myokokogen Station. Most travelers will be coming from Nagano, either transferring from the Nagano Shinkansen, or from Nagaya on the Chuo Line. It's only about 40 minutes from Nagano to Myokokogen. At the station, a taxi is your best bet. There are buses leaving for Akakura, but the walk is a bit far (fine if you don't have a lot of gear). Once here, it's easy to access the shuttle buses that travel between Akakura Onsen Ski Area, Akakura Kanko Ski Resort, Ikenotaira Ski Resort and Suginohara Ski Resort.<p></p>
+<strong>By car:</strong> Exit at the Myokokogen Interchange of the Joshinetsu Expressway; from there, it's just 5 to 10 minutes to Lodge Ohno (turn left at the Toyohashi signal, the first major intersection after exiting the freeway and turing left).<p>
+The Google map below may be in Japanese depending on location, but it gives a good sense of where the hotel is in relation to the surroundings. If you have any problems or need more information, please email to <a href="mailto:info_e@lodgeohno.com">info_e@lodgeohno.com</a>.
+
+</div>
+<div class="map">
+
+ <body onload="initialize()" onunload="GUnload()">
+      <div id="map_canvas" style="width: 540px; height: 800px" align="right"></div>
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAQyjNCYdoRXk5eWJOESKSXRSyX8cuOMjd4bJuC1Qdh1vQKiLyhxRzyIFSHxpNxM2iD1PHlK6DPMpZeQ" type="text/javascript"></script>
+
+      
+	  <script type="text/javascript">
+	  //<![CDATA[
+
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+      
+        var map = new GMap2(document.getElementById("map_canvas"));
+		map.addControl(new GSmallMapControl());
+		map.addControl(new GMapTypeControl());
+		//<! open this up again if you need to get a display of map coordinates>
+		//GEvent.addListener(map, "moveend", function() {
+  //var center = map.getCenter();
+ // document.getElementById("message").innerHTML = center.toString();
+//});
+
+		map.setCenter(new GLatLng(36.883550, 138.179700), 18);
+		
+// Create MBSS icon; actual size is 206,90
+var icon = new GIcon();
+icon.image = "../img/sign.png";
+// Restore if needed: icon.shadow = "img/logo_200_shad.png"; //
+icon.iconSize = new GSize(103, 75);
+// Restore if needed:icon.shadowSize = new GSize(103, 75); //
+icon.iconAnchor = new GPoint(30, 50);
+icon.infoWindowAnchor = new GPoint(30, 50);
+
+
+// Put icon in right place
+var bounds = map.getBounds();
+var southWest = bounds.getSouthWest();
+var northEast = bounds.getNorthEast();
+var lngSpan = northEast.lng() - southWest.lng();
+var latSpan = northEast.lat() - southWest.lat();
+for (var i = 0; i < 1; i++) {
+  var point = new GLatLng(36.884800, 138.179600);
+  map.addOverlay(new GMarker(point, icon));
+  
+
+  }
+
+  }
+    }
+
+    //]]>
+    </script>
+        </head>
+
+</div></div>
+
+
+<div class="clr"></div>
+<!-- footer -->
+
+<div class="footer" style="margin: 240px 0px 200px 260px">
+
+<strong>Lodge Ohno</strong>&nbsp;&nbsp;&nbsp;1410 Shin-Akakura&nbsp;&nbsp;&nbsp;Myoko-shi, Niigata-ken&nbsp;&nbsp;&nbsp;email:<a href="mailto:info_e@lodgeohno.com">info_e@lodgeohno.com</a>&nbsp;&nbsp;&nbsp;Tel: 0255-87-2037<p>&nbsp;</p>
+</div></div>
+
+<!-- end of footer -->	
+</body>
+</html>
