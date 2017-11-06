@@ -434,7 +434,10 @@ color: #563a1f;
 text-decoration: underline;
 }
 
+
 /*media calls, etc. */
+
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
